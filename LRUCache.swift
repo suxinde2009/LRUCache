@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class LRUCache<KeyType: Hashable, ValueType> {
+public class LRUCache<KeyType: Hashable, ValueType>: NSObject {
     
     private let maxSize: Int
     private var cache: [KeyType: ValueType] = [:]
@@ -50,6 +50,12 @@ public class LRUCache<KeyType: Hashable, ValueType> {
             }
         }
     }
+    
+    public override var description: String {
+        return "LRUCache<\(KeyType.self):\(ValueType.self)>: { \n\(cache) \n}"
+    }
+
+    
 }
 
 fileprivate extension LRUCache {
