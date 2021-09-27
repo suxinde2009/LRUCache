@@ -36,7 +36,7 @@ Checkout the testcase in LRUCacheTests.
 
 MIT License
 
-Copyright (c) 2011-Present __承_影__
+Copyright (c) 2011-Present `__承_影__`
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
