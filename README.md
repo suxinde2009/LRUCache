@@ -6,7 +6,7 @@ A simple LRU memory cache implemented in Swift 5.
 
 Checkout the testcase in LRUCacheTests.
 
-```
+```swift
     func tests() {
         let cache = LRUCache<String, Int>(2)
         cache.set("a", 1)
